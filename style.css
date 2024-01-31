@@ -131,6 +131,13 @@ body {
     border-radius: 17px;
 }
 
+.move-box-separator {
+    font-size: 104px;
+    color: #d8f1ff;
+    font-weight: 900;
+
+}
+
 @media screen and (max-width: 720px) {
    .body {
     padding: 1%;
