@@ -132,15 +132,14 @@ body {
 }
 
 .move-box-separator {
-    font-size: 104px;
+    font-size: 32px;
     color: #d8f1ff;
-    font-weight: 900;
 
 }
 
 @media screen and (max-width: 720px) {
    .body {
-    padding: 1%;
+    padding: 5%;
     justify-content: space-evenly;
    }
 
@@ -152,11 +151,13 @@ body {
     width: 90%;
    }
    .scoreboard-box {
-    width: 100%;
+    width: 95%;
+    
    }
    .config-box {
-    gap:10;
+    gap:10px;
     flex-direction: column;
+    margin-top: 20px;
    }
    .battle-field {
     flex-direction: column;
@@ -172,17 +173,20 @@ body {
     width: 115px;
    }
 
-   .box-move-separator {
+
+   .move-box-separator {
     font-size: 25px;
     
    }
 
    .board {
-    padding: 10px;
+    padding: 20px;
    }
 
    .move-box {
-    width: 40%;
+    width: 43%;
+    height: 170px;
+    padding: 10px;
    }
 }
 
